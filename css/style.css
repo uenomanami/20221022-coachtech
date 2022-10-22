@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+}
+.header-title {
+  width: 150px;
+}
+.header-title-logo img {
+  width: 100%;
+}
+.header-nav-item a {
+  text-decoration: none;
+  color: grey;
+}
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-list :not(last-child) {
+  margin-right: 15px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.firstview {
+  position: relative;
+}
+
+.firstview-img {
+  width: 60%;
+  margin: 0 0 0 auto;
+  display: block;
+}
+
+.firstview-img img {
+  width: 100%;
+}
+
+.firstview-wrap {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 50%;
+}
+
+.firstview-title {
+  color: rgb(182, 28, 108);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.firstview-title::before {
+  content: "Commit to the growth for everyone";
+  font-size: 48px;
+  position: absolute;
+  top: -140%;
+  /* margin-bottom: 20px; */
+}
+
+.firstview-title span {
+  color: rgb(7, 160, 179);
+}
+
+.firstview-subtitle {
+  color: grey;
+  font-size: 14px;
+}
